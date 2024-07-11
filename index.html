@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <!--Configurações do site-->
+    <title>My Burger</title>
+    <meta charset="UTF-8" />
+    <meta name="description" content="Minha documentação" />
+    <meta name="author" content="Luuccasnogueira" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" href="./img/burger-card.webp" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;900&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      defer
+      src="https://use.fontawesome.com/releases/v6.5.2/js/all.js"
+    ></script>
+  </head>
+
+  <body>
+    <!--Cabeçalho-->
+    <header class="header">
+      <!--Logo-->
+      <div class="logo">
+        <i class="fa-solid fa-cart-shopping"></i>
+        <a href="">
+          Big
+          <span> Burger </span>
+        </a>
+      </div>
+
+      <!--Menu-->
+      <nav class="navigation" id="nav">
+        <ul id="nav-items">
+          <li>
+            <a class="nav-item" href="/">Início</a>
+          </li>
+
+          <li>
+            <a class="nav-item" href="#cards">Burges </a>
+          </li>
+
+          <li>
+            <a class="nav-item" href="#descriptions">Melhores</a>
+          </li>
+
+          <li>
+            <a class="nav-item" href="#contact">Contato</a>
+          </li>
+        </ul>
+      </nav>
+
+      <!--Menu Mobile-->
+      <div class="bars" id="bars">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </div>
+    </header>
+
+    <main>
+      <!--Banner-->
+      <section class="banner" id="banner">
+        <div class="banner-content">
+          <!--banner text-->
+          <article class="banner-text">
+            <h2 class="banner-subtitle">Welcome BigBurger</h2>
+            <h1 class="banner-title">burger</h1>
+            <p class="banner-description">
+              Ligue agora e garanta seu hamburger, na compra de dois
+              hambúrgueres ganhe mais um grátis.
+            </p>
+            <a href="" class="banner-button">Comprar</a>
+          </article>
+
+          <!--banner img-->
+          <aside class="banner-img">
+            <img
+              src="https://burgerflex.netlify.app/img/burger.webp"
+              class="banner-image"
+            />
+          </aside>
+        </div>
+      </section>
+
+      <!--Cards-->
+      <section class="cards" id="cards">
+        <h2 class="card-title">BURGER'S</h2>
+
+        <div class="card-content" id="card">
+          <article class="card"></article>
+          <article class="card"></article>
+          <article class="card"></article>
+          <article class="card"></article>
+          <article class="card"></article>
+          <article class="card"></article>
+          <article class="card"></article>
+          <article class="card"></article>
+        </div>
+
+        <figure class="arrow">
+          <button id="left" class="btn-arrow">
+            <i class="fa-solid fa-chevron-left bx"></i>
+          </button>
+          <button id="right" class="btn-arrow">
+            <i class="fa-solid fa-chevron-right bx"></i>
+          </button>
+        </figure>
+
+        <button class="card-button">Learn more</button>
+      </section>
+
+      <!--Descriptions-->
+      <section class="descriptions" id="descriptions">
+        <h2 class="descriptions-title">MAIS PEDIDOS</h2>
+
+        <div class="description-content">
+          <article class="description-card">
+            <h2 class="description-title">Hambúrguer Clássico</h2>
+            <p class="description">
+              Hambúrguer feito com 200 g de carne, queijo, picles, tomate,
+              alface, cebola e maionese. Se preferir, peça para acrescentar
+              bacon e troque a maionese por mostarda. Servido com um
+              acompanhamento a sua escolha
+            </p>
+            <span class="description-rating">⭐⭐⭐⭐⭐</span>
+          </article>
+
+          <article class="description-card">
+            <h2 class="description-title">Hambúrguer Clássico</h2>
+            <p class="description">
+              Hambúrguer feito com 200 g de carne, queijo, picles, tomate,
+              alface, cebola e maionese. Se preferir, peça para acrescentar
+              bacon e troque a maionese por mostarda. Servido com um
+              acompanhamento a sua escolha
+            </p>
+            <span class="description-rating">⭐⭐⭐⭐⭐</span>
+          </article>
+
+          <article class="description-card">
+            <h2 class="description-title">Hambúrguer Clássico</h2>
+            <p class="description">
+              Hambúrguer feito com 200 g de carne, queijo, picles, tomate,
+              alface, cebola e maionese. Se preferir, peça para acrescentar
+              bacon e troque a maionese por mostarda. Servido com um
+              acompanhamento a sua escolha
+            </p>
+            <span class="description-rating">⭐⭐⭐⭐⭐</span>
+          </article>
+
+          <article class="description-card">
+            <h2 class="description-title">Hambúrguer Clássico</h2>
+            <p class="description">
+              Hambúrguer feito com 200 g de carne, queijo, picles, tomate,
+              alface, cebola e maionese. Se preferir, peça para acrescentar
+              bacon e troque a maionese por mostarda. Servido com um
+              acompanhamento a sua escolha
+            </p>
+            <span class="description-rating">⭐⭐⭐⭐⭐</span>
+          </article>
+        </div>
+        <button class="description-button">Learn more</button>
+      </section>
+
+      <!--Contato-->
+      <section class="contact" id="contact">
+        <h2 class="contact-title">CONTATO</h2>
+        <div class="contact-content">
+          <form
+            action="https://api.staticforms.xyz/submit"
+            method="post"
+            class="contact-form"
+          >
+            <input
+              type="hidden"
+              name="accessKey"
+              value="Coloque sua chave aqui"
+            />
+            <input
+              type="text"
+              name="name"
+              placeholder="Digite seu nome"
+              required
+            />
+            <input
+              type="email"
+              name="email"
+              placeholder="Digite seu E-mail"
+              required
+            />
+            <textarea
+              name="message"
+              placeholder="Digite seu mensagem"
+              required
+            ></textarea>
+            <input
+              type="hidden"
+              name="redirectTo"
+              value="https://wa.me/13991301814?text=Quero%20contratar!"
+            />
+            <button type="submit" class="contact-btn">Enviar</button>
+          </form>
+
+          <aside class="contact-img">
+            <img
+              src="./img/contato.webp"
+              alt=""
+              class="contact-image"
+              width="40%"
+            />
+          </aside>
+        </div>
+      </section>
+    </main>
+  </body>
+
+  <script src="js/script.js"></script>
+</html>
