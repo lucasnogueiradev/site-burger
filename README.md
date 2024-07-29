@@ -18,3 +18,5 @@ Você pode visualizar o site [aqui](burgerflex.netlify.app).
 1. Clone o repositório:
    ```bash
    git clone https://github.com/usuario/nome-do-repositorio.git
+
+![image](https://github.com/user-attachments/assets/18c9e442-cd23-4e78-a951-89f70928824a)
